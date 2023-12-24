@@ -10,11 +10,11 @@ type AnimeAttribute struct {
 	Rating         string `json:"averageRating"`
 	StartDate      string `json:"startDate"`
 	EndDate        string `json:"endDate"`
-	EpisodeCount   int32  `json:"episodeCount"`
-	EpisodeLength  int32  `json:"episodeLength"`
+	EpisodeCount   int    `json:"episodeCount"`
+	EpisodeLength  int    `json:"episodeLength"`
 	ShowType       string `json:"showType"`
-	RatingRank     int32  `json:"ratingRank"`
-	PopularityRank int32  `json:"popularityRank"`
+	RatingRank     int    `json:"ratingRank"`
+	PopularityRank int    `json:"popularityRank"`
 }
 
 type Anime struct {

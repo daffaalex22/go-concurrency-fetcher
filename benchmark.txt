@@ -1,0 +1,9 @@
+goos: windows
+goarch: amd64
+pkg: fetcher
+cpu: AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx  
+BenchmarkConcFetch/Jobs-5000-Workers-200-8         	       7	10146757886 ns/op	389090953 B/op	  639500 allocs/op
+BenchmarkConcFetchWrite/Jobs-5000-Workers-200-8    	       7	52569567514 ns/op	360045669 B/op	  688416 allocs/op
+BenchmarkSeqFetch/Jobs-5000-Workers-200-8          	       1	1283191519100 ns/op	395719432 B/op	  626115 allocs/op
+PASS
+ok  	fetcher	1802.786s
